@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 # Import the main application code (adjust path if necessary)
 from src.app import df, x, y
 
+
 def test_data_loading():
     # Test if data is loaded correctly
     assert not df.empty, "DataFrame should not be empty"
